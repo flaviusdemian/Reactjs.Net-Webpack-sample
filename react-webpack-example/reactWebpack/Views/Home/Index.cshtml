@@ -1,0 +1,34 @@
+﻿@using React.Web.Mvc
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.React("Home", new {
+
+})
+
+
+@*@Html.React("Components.Home", new {
+
+})*@ 
+
+
+@*@Html.React("Components.Home", new {
+
+})
+
+@Html.React("Components.Footer", new
+{
+
+})*@
+
+<!-- Load all required scripts (React + the site's scripts) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.0/umd/react.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.0/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.0/prop-types.js"></script>
+
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-react/0.86.0/semantic-ui-react.min.js"></script>
+<script src="~/build/client.bundle.js"></script>
+
+<!--  Add this for server side support javascript funcationality -->
+@Html.ReactInitJavaScript()
