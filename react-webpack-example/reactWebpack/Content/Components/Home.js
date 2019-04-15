@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'semantic-ui-react';
+//import { Button } from 'semantic-ui-react';
 
 class Home extends React.Component {
     constructor(props) {
@@ -40,7 +40,7 @@ class Home extends React.Component {
                 <button onClick={this.decrehandler}>decre--</button>
                 <button onClick={this.resethandler}>reset</button>
                 <h2> Insert semantic ui code below</h2>
-                <Button>Click Here</Button>
+           
             </div>
         );
     }
@@ -49,4 +49,5 @@ class Home extends React.Component {
 //module.exports = Home;
 export default Home;
 
+//     <Button>Click Here</Button>
 //<Button>Click Here</Button> semantic UI insert

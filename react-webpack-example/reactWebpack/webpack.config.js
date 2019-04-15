@@ -26,6 +26,6 @@ module.exports = {
     externals: {
         'react': 'React',
         'react-dom': 'ReactDOM',
-        'semantic-ui-react': 'semanticUIReact'
+        //'semantic-ui-react': 'semanticUIReact'
     }
 };
